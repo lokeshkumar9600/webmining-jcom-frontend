@@ -1,0 +1,55 @@
+.outerWindow{
+    height:80vh;
+    width: 90vh;
+    background-color:#9a849c;
+    border-radius:10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+.main-content{
+    position: absolute;
+    background-color:#d8c5da;
+   height:30vh;
+   width:40vw;
+   margin-top:5px;
+   overflow: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   font-weight: bold;
+   font-family: "Helvetica Neue",Helvetica
+}
+
+.chat-form{
+    position:absolute;
+    bottom: 0;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+div.chat-form input{
+    width: 30vw;
+    border-radius: 10px;
+    height:30px;
+    margin-bottom:10px;
+}
+
+div.chat-form button{
+    margin-left:5px;
+    border-radius:10px;
+    height:30px;
+    width:70px;
+}
